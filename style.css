@@ -1,5 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+    margin: 0;
+}
+
 .header {
-    background-color: aliceblue;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
 }
 
 .hero {
@@ -16,4 +27,15 @@
 
 footer {
     background-color: darksalmon;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.header img {
+    width: 50px;
+    height: auto;
 }
