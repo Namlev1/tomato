@@ -15,6 +15,9 @@ body {
 
 .hero {
     background-color: darksalmon;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .info {
@@ -39,9 +42,15 @@ a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    font-weight: medium;
 }
 
 .header img {
     width: 50px;
+    height: auto;
+}
+
+.hero img {
+    width: 450px;
     height: auto;
 }
