@@ -45,7 +45,7 @@ a {
 }
 
 body>* {
-    padding: 16px 100px;
+    padding: 16px 250px;
 }
 
 .header img {
@@ -56,4 +56,17 @@ body>* {
 .hero img {
     width: 450px;
     height: auto;
+}
+
+.hero .main {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero button {
+    background-color: aqua;
+    padding: 8px 26px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 0px;
 }
