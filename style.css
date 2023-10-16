@@ -25,7 +25,11 @@ footer {
 }
 
 .info {
-    background-color: aliceblue;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .quote {
@@ -76,4 +80,10 @@ body>* {
     font-weight: 800;
     border-radius: 8px;
     border: 0px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
