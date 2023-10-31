@@ -22,10 +22,12 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    padding: 100px 250px;
 }
 
 .quote {
-    background-color: beige;
+    background-color: #e5e7eb;
+    padding: 100px 300px;
 }
 
 ul {
@@ -79,6 +81,7 @@ body>* {
     font-weight: 800;
     color: #1f2937;
     text-align: center;
+    padding: 50px;
 }
 
 .info-container img {
@@ -91,9 +94,10 @@ body>* {
 
 .info-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     flex: 1;
+    padding: 16px 50px 100px;
 }
 
 .card {
@@ -102,4 +106,18 @@ body>* {
     align-items: center;
     flex-basis: 150px;
     gap: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-sign {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: right;
 }
