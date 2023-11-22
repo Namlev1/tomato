@@ -159,3 +159,11 @@ body>* {
     border-radius: 8px;
     padding: 10px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+    color: #e5e7eb;
+}
