@@ -27,7 +27,7 @@ footer {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 100px 300px;
+    padding: 100px 325px;
 }
 
 ul {
@@ -120,4 +120,42 @@ body>* {
     font-weight: 800;
     color: #1f2937;
     text-align: right;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    margin: 100px 250px;
+    padding: 30px 150px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up>* {
+    padding: 0;
+}
+
+.sign-head {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.sign-up-text>* {
+    margin: 16px;
+}
+
+.sign-text {
+    color: #e5e7eb;
+}
+
+.sign-up-button {
+    font-size: 24px;
+    font-weight: 800;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
 }
